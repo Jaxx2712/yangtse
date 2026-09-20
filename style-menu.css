@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Risque&family=Skranji:wght@400;700&display=swap');
+
+
+.pagina-menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/fondomenu.jpg');
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 30px 20px;
+}
+
+.menu-header {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Skranji', sans-serif;
+}
+
+.menu-header > h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 84px;
+    font-weight: 300;
+    color: #F3C651;
+    display: flex;
+    justify-content: center;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-retroceder {
+    display: inline-block;
+    background-color: #d32f2f;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #ffcc00;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Skranji', sans-serif;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn-retroceder:hover {
+    background-color: #b71c1c;
+    transform: scale(1.03);
+}
+
+.menu-completo-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #ffcc00;
+    font-family: 'Risque', cursive;
+}
+
+.categoria-menu {
+    margin-bottom: 25px;
+}
+
+.categoria-menu > h3 {
+    color: #ffcc00;
+    border-bottom: 2px solid #d32f2f;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.categoria-menu > p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    margin: 8px 0;
+}
+
+.contenedor-boton-volver {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
